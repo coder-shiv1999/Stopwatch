@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div id="header">
+            <div class="hcontent" id="logo">
+                <h3>Stopwatch</h3>
+            </div>
+        </div>
+
+        <div class="center">
+            
+            <div id="content">
+                <span id="hr" class="time">00</span>
+                <span class="txt">Hr</span>
+                <span id="min" class="time">00</span>
+                <span class="txt" >Min</span>
+                <span id="sec" class="time">00</span>
+                <span class="txt">Sec</span>
+                <span id="ms" class="time">00</span>
+            </div>
+            <div id="btn" >
+                <button class="btime" id="start" onclick="start()">Start</button>
+                <button class="btime" id="stop" onclick="stop()">Stop</button>
+                <button class="btime" id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
